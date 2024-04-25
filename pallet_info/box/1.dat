@@ -1,0 +1,10 @@
+{
+    "name": "MyTestBox",
+    "size": [
+        300,
+        400,
+        150
+    ],
+    "weight": 500,
+    "index": 1
+}

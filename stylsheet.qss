@@ -1,0 +1,105 @@
+QListWidget {
+    padding: 10px; 
+    border: 1px; /* No border for the QListWidget itself */
+    outline: none; /* Remove focus outline */
+    background-color: #dcdcdc; /* Light gray background color */
+}
+QMessageBox {
+    border: 1px solid #dcdcdc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* White background color */
+    margin: 2px; /* Uniform margin on all sides */
+    font-size: 15px; /* Text size */
+}
+QListWidget::item {
+    border: 1px solid #dcdcdc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* White background color */
+    margin: 2px; /* Uniform margin on all sides */
+}
+
+QListWidget::item:selected {
+    background-color: #BE0E13; /* Slightly darker background for selected items */
+}
+
+
+
+QPushButton#darkGrayButton {
+    border: 2px solid #dcdcdc; /* Grey border */
+    
+    border-radius:5px; /* Square corners */
+    padding: 10px 25px; /* Padding around text */
+    margin: 0px; /* Space around buttons */
+    background-color: #515151; /* Dark grey background */
+    color: white; /* White text */
+}
+QPushButton#savebutton {
+    border: 2px solid #dcdcdc; /* Grey border */
+    
+    border-radius:5px; /* Square corners */
+    padding: 10px 25px; /* Padding around text */
+    margin: 0px; /* Space around buttons */
+    background-color: #D3D3D3; /* Grey background */
+    color: white; /* Black text */
+}
+QPushButton#grayButton {
+    border: 2px solid #dcdcdc; /* Grey border */
+    
+    border-radius:5px; /* Square corners */
+    padding: 10px 25px; /* Padding around text */
+    margin: 0px; /* Space around buttons */
+    background-color: #D3D3D3; /* Grey background */
+    color: black; /* Black text */
+}
+
+QPushButton#redButton {
+    border: 2px solid #dcdcdc; /* Grey border */
+    
+    border-radius:5px; /* Square corners */
+    padding: 10px 25px; /* Padding around text */
+    margin: 0px; /* Space around buttons */
+    font-size: 25px; /* Text size */
+    background-color: #BE0E13; /* Red background */
+    color: white; /* White text */
+}
+QPushButton#savebutton {
+   
+    border: 0px solid #BE0E13; /* Grey border */
+    
+    border-radius:5px; /* Square corners */
+   
+    font-size: 20px; /* Text size */
+    background-color: #BE0E13; /* Red background */
+    color: white; /* White text */
+}
+#topBar {
+    border: none; /* Grey border */
+    
+   
+    background-color: #515151; /* Red background */
+    
+    border-bottom: 8px solid #BE0E13;
+   
+}
+#Line {
+    margin: 10px; /* Space around buttons */
+    border-radius:5px; /* Square corners */
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 30px;
+    max-height: 50px;
+}
+#Linebtn {
+    border: 2px solid #dcdcdc; /* Grey border */
+    
+    border-radius:5px; /* Square corners */
+    
+    margin: px; /* Space around buttons */
+    min-width: 80px;
+    max-width: 160px;
+    min-height: 30px;
+    max-height: 50px;
+}
+#Linebtn:selected {
+    background-color: #BE0E13; /* Slightly darker background for selected items */
+}
