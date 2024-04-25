@@ -92,7 +92,8 @@ class Dojson:
     
     def find_pallet_profile(index):
         folder_path = "D:\Cobo_AppVision\AppVisionTest\pallet_info\pallet"
-    
+        folder = os.getcwd()
+        folder_path = os.path.join(folder, "pallet_info","pallet")
         # ตรวจสอบว่าไฟล์ที่ต้องการค้นหามีอยู่จริงหรือไม่
         full_file_path = os.path.join(folder_path, f"{index}.dat")
         if os.path.exists(full_file_path):
